@@ -10,6 +10,7 @@ services:
       - DB_CLIENT=sqlite
       - DB_FILENAME=/data/directus.db
       - DB_HOST=directus-db
+      - DB_DATABASE=directus
       - DB_PORT=3306
       - DB_USER=root
       - DB_PASSWORD=root
