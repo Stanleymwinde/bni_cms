@@ -9,6 +9,7 @@ services:
     environment:
       - DB_CLIENT=sqlite
       - DB_FILENAME=/data/directus.db
+      - DB_HOST=directus-db
 
     volumes:
       - directus_data:/data
