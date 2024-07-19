@@ -5,7 +5,7 @@ services:
     image: directus/directus:latest
     container_name: directus
     ports:
-      - "80:8055"
+      - "8014:8055"
     environment:
       - DB_CLIENT=sqlite
       - DB_FILENAME=/data/directus.db
