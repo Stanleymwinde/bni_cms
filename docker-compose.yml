@@ -16,7 +16,7 @@ services:
       - DB_PASSWORD=root
 
     volumes:
-      - directus_data:/data
+      - ./data:/data
 
 volumes:
-  directus_data:
+  # directus_data:
